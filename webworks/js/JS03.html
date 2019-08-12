@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+     function checkAge(){
+        name= prompt("Enter Your Name ");
+        age = prompt("Enter Your age");
+        message="";
+        if(age>18){
+            message= "<H1> You are eligible to vote</H2>";
+        }else{
+            message="<H1>Sorry please wait for </H1>" , 18-age;
+        }
+        document.getElementById("message").innerHTML=message;
+     }
+    
+    </script>
+   
+</head>
+<body>
+    <button onclick="checkAge()">Click To Vote</button>
+
+    <div id="message"></div>
+</body>
+</html>

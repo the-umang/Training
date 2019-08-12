@@ -1,0 +1,34 @@
+p{
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h2,h3{
+    color: crimson;
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.myh2{
+    font-size: 2em;
+}
+#myFirstId{
+    color: aqua;
+}
+a:hover{
+    font-style: italic;
+    font-size: 2em;
+    color: rebeccapurple;
+}
+a:link{
+    color:saddlebrown;
+}
+a:visited{
+    color:cadetblue;
+    font-style: italic;
+    font-size: 2em;
+}
+table{
+    border: 3em;
+    color : lawngreen;
+    font-size: 3em;
+}

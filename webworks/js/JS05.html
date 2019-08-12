@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+     function display(str){
+         document.write("Display with param");
+         noOfParams=display.arguments.length;
+         document.write("You supplied "+noOfParams + "They are listed below");
+
+         for(i=0;i<noOfParams;i++)
+            document.write("<H1>"+display.arguments[i]+"<p>");
+     }
+  </script>
+</head>
+<body>
+        <button onclick="display()">Click Mee!!!!!</button>
+        <button onclick="display('1','2','3')">Click Mee!!!!!!</button>
+</body>
+</html>

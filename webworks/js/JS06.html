@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+
+    <script>
+        function Employee(empId,empName){
+            this.empId=empId;
+            this.empName=empName;
+            //this.insideFunction = function(){
+            this.insideFunction = ()=>{
+                document.write("<p>Inside Function Employee id is "+emp.empId + " And ....Employee name is "+ emp.empName);
+
+            }
+        }
+        Employee.prototype.display=function(){
+            document.write("Employee id is "+emp.empId + " And ....Employee name is "+ emp.empName);
+        }
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        emp = new Employee(101,"Umang");
+        emp.display();
+        emp.insideFunction();
+    </script>
+</body>
+</html>

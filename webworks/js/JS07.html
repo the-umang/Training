@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script type="text/javascript">
+        function fnArray(){
+            arr = new Array(5);
+            arr[0] = 10;
+            arr[1] = 20;
+            arr[2] = 30;
+            arr[3] = 40;
+            arr[4] = 50;
+           console.log("Number of Elements in array " +arr.length);
+            console.log("<p>Array content " +arr);
+            arr.push(100);
+            console.log("Number of Elements in array " +arr.length);
+            console.log("<p>Array content " +arr);
+            arr.unshift(100);
+            console.log("Number of Elements in array " +arr.length);
+            console.log("<p>Array content " +arr);
+            arr.pop();
+            console.log("Number of Elements in array " +arr.length);
+            console.log("<p>Array content " +arr);
+            arr.splice(1,1,100);
+            console.log("Number of Elements in array " +arr.length);
+            console.log("<p>Array content " +arr);
+        }
+    
+    </script>
+</head>
+<body>
+        <button onclick="fnArray()">Click me</button>
+
+</body>
+</html>
